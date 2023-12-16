@@ -1,6 +1,9 @@
 button {
   cursor: pointer;
 }
+img{
+  display:block
+}
 body{
     font-family:'Roboto', sans-serif; 
     color:#434455;
@@ -12,7 +15,22 @@ body{
 .link{
   text-decoration: none;
 }
+.page-header{
+  border-bottom:1px solid #e7e9fc ;
+}
+.div-page-header{
+  display:flex;
+}
+.conteiner{
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px
+}
+.page-navigation-header{
+  display: flex;
+  align-items: center;
 
+}
 .logotipe{
 color: #2E2F42;
 font-size: 18px;
@@ -22,6 +40,11 @@ letter-spacing: 0.03em; /*letter-spacing/font-size*/
 text-transform: uppercase;
 font-family:  "Raleway", sans-serif;
 color:#4d5ae5;
+margin-right: 76px;
+}
+.menu{
+  display: flex;
+  gap: 40px;
 }
 
 .menu-link{
@@ -30,6 +53,7 @@ color:#4d5ae5;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;  
     color: #2E2F42;
+    padding: 24px 0;
 }
 .menu-link:hover{
     color:#404bbf; 
@@ -38,7 +62,11 @@ color:#4d5ae5;
 .menu-link:active {
   color: #404bbf;}
 
-
+.menu-info{
+  display: flex;
+  gap: 40px;
+  
+}
 
 .info-link{
 font-family: Roboto;
