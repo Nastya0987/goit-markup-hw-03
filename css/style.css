@@ -36,6 +36,9 @@ ol {
 }
 .div-page-header {
   display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .container {
   width: 1158px;
@@ -287,7 +290,7 @@ ol {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  
+
 }
 .footer-main-section {
   background-color: #2e2f42;
