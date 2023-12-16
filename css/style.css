@@ -62,10 +62,10 @@ margin-right: 76px;
 .menu-link:active {
   color: #404bbf;}
 
-.menu-info{
+.menu-info-list{
   display: flex;
   gap: 40px;
-  
+
 }
 
 .info-link{
