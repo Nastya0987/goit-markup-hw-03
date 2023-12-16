@@ -21,7 +21,7 @@ body{
 .div-page-header{
   display:flex;
 }
-.conteiner{
+.div.default-container{
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px
@@ -41,6 +41,7 @@ text-transform: uppercase;
 font-family:  "Raleway", sans-serif;
 color:#4d5ae5;
 margin-right: 76px;
+padding: 25.5px 0;
 }
 .menu{
   display: flex;
@@ -73,6 +74,7 @@ font-size: 16px;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 color: #434455;
+padding: 24px;
 }
 .info-link:hover{
     color:#404bbf ;
@@ -88,9 +90,15 @@ color: #434455;
 }
 .main-section-page{
   background-color: #2E2F42;
+max-width: 496px;
+flex-shrink: 0;
+padding: 1188px 0;
+
 }
-.conteiner_main-title{
-color: #FFFFFF;
+.conteiner-main-title{
+width:496px ;
+height: 120px;
+  color: #FFFFFF;
 text-align: center;
 font-family: Roboto;
 font-size: 56px;
@@ -99,7 +107,16 @@ line-height: 1.07; /* 107.143% */
 letter-spacing: 0.02em;
 }
 .button-main-order{
-  
+  min-width: 169px;
+  height: 56px;
+  display: block;
+  border: none;
+  cursor:pointer;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: var(--IRIS, #4D5AE5);
   color: var(--WHITE, #FFF);
   font-family: "Roboto", sans-serif;
